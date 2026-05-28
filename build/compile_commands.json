@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/AVLTree.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/AVLTree.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/AVLTree.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/AVLTree.cpp.o"
+},
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/AuthService.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/AuthService.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/AuthService.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/AuthService.cpp.o"
+},
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/CipherPhase2.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/CipherPhase2.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/CipherPhase2.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/CipherPhase2.cpp.o"
+},
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/HistoryService.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/HistoryService.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/HistoryService.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/HistoryService.cpp.o"
+},
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/TranslationService.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/TranslationService.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/TranslationService.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/TranslationService.cpp.o"
+},
+{
+  "directory": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build",
+  "command": "/usr/bin/c++  -I\"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/include\" -g -std=gnu++17 -arch arm64 -o CMakeFiles/TraductorDefinitivo.dir/src/main.cpp.o -c \"/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/main.cpp\"",
+  "file": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/src/main.cpp",
+  "output": "CMakeFiles/TraductorDefinitivo.dir/src/main.cpp.o"
+}
+]

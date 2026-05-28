@@ -1,0 +1,3 @@
+/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build/CMakeFiles/TraductorDefinitivo.dir
+/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build/CMakeFiles/edit_cache.dir
+/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build/CMakeFiles/rebuild_cache.dir

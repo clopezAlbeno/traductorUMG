@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TraductorDefinitivo (Debug)",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder}/build",
+      "program": "${workspaceFolder}/build/TraductorDefinitivo",
+      "preLaunchTask": "cmake-build"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo",
+      "program": "/Users/cristianlopez/Documents/Unversidad/5TO SEMESTRE/progra/TraductorDefinitivo/build/Debug/outDebug"
+    }
+  ]
+}
