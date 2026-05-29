@@ -107,8 +107,7 @@ static void displayMenu() {
     cout << "  3. Eliminar palabra\n";
     cout << "  4. Traducir frase (API MyMemory)\n";
     cout << "  5. Ver top 5 busquedas\n";
-    cout << "  6. Escuchar audio de traduccion\n";
-    cout << "  7. Guardar y cerrar sesion\n";
+    cout << "  6. Guardar y cerrar sesion\n";
     cout << "============================================\n";
     cout << "Opcion: ";
 }
@@ -185,8 +184,37 @@ int main() {
                     cout << "  Frances  : " << rec->french   << "\n";
                     cout << "  Aleman   : " << rec->german   << "\n";
                     cout << "  Ingles   : " << rec->english  << "\n";
-                    // Fase 2: guardar historial cifrado
+
+                    // Guardar historial cifrado (2 archivos por usuario)
                     HistoryService::saveSearch(AuthService::getCurrentUser(), word);
+
+                    // Sub-menu post-traduccion
+                    cout << "\n  Que desea hacer?\n";
+                    cout << "  1. Agregar al diccionario personal\n";
+                    cout << "  2. Escuchar audio de la traduccion\n";
+                    cout << "  3. Continuar\n";
+                    cout << "  Opcion: ";
+                    int sub;
+                    if (cin >> sub) {
+                        clearInput();
+                        if (sub == 1) {
+                            translator.addWord(*rec);
+                            cout << "Palabra agregada a tu diccionario personal.\n";
+                        } else if (sub == 2) {
+                            cout << "Idioma (it/fr/de/en): ";
+                            string lang;
+                            getline(cin, lang);
+                            string txt;
+                            if      (lang == "it") txt = rec->italian;
+                            else if (lang == "fr") txt = rec->french;
+                            else if (lang == "de") txt = rec->german;
+                            else if (lang == "en") txt = rec->english;
+                            else                   txt = rec->spanish;
+                            translator.playAudio(txt, lang);
+                        }
+                    } else {
+                        clearInput();
+                    }
                 } else {
                     cout << "Palabra no encontrada en el diccionario local.\n";
                 }
@@ -246,20 +274,8 @@ int main() {
                 break;
             }
 
-            // ── Fase 1: Audio TTS ──────────────────────────
-            case 6: {
-                cout << "Texto a pronunciar: ";
-                string txt;
-                getline(cin, txt);
-                cout << "Idioma (es/it/fr/de/en): ";
-                string lang;
-                getline(cin, lang);
-                translator.playAudio(txt, lang);
-                break;
-            }
-
             // ── Fase 3: Guardar y cerrar sesión ───────────
-            case 7: {
+            case 6: {
                 saveUserDictionary(translator, userDictPath(AuthService::getCurrentUser()));
                 cout << "Diccionario guardado (cifrado Fase 2 + Fase 3).\n";
                 AuthService::logout();
